@@ -49,8 +49,8 @@ export default {
         },
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
-        heading: ['Poppins', 'sans-serif'],
+        sans: ['Manrope', 'sans-serif'],
+        heading: ['Urbanist', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",

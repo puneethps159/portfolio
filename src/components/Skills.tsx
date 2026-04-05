@@ -1,36 +1,36 @@
-import { Code, Globe, Database, Cpu, BarChart3, Wrench } from "lucide-react";
+import { Calculator, ClipboardCheck, Compass, HardHat, Ruler, ShieldCheck } from "lucide-react";
 
 const Skills = () => {
   const skillCategories = [
     {
-      icon: Code,
-      title: "Programming Languages",
-      skills: ["Java", "Python", "C"],
+      icon: Compass,
+      title: "Core Civil Skills",
+      skills: ["Planning", "Designing", "Overseeing Construction", "Execution Support"],
     },
     {
-      icon: Globe,
-      title: "Web Development",
-      skills: ["HTML", "CSS", "JavaScript"],
+      icon: Calculator,
+      title: "Key Strengths",
+      skills: ["Quick Learner", "Confident", "Team Player", "Active Listener"],
     },
     {
-      icon: Database,
-      title: "Databases",
-      skills: ["MySQL", "MongoDB"],
+      icon: HardHat,
+      title: "Personal Skills",
+      skills: ["Excellent Communication", "Adaptive Nature", "Leadership Qualities", "Positive Mindset"],
     },
     {
-      icon: Cpu,
-      title: "Backend & Runtime",
-      skills: ["Node.js", "REST APIs"],
+      icon: ShieldCheck,
+      title: "Certifications",
+      skills: ["C++", "HTML", "MS Office 2007", "Basics of Java"],
     },
     {
-      icon: BarChart3,
-      title: "ML & Data Science",
-      skills: ["Machine Learning", "Data Analysis", "OpenCV","Power BI"] ,
+      icon: Ruler,
+      title: "Current Learning",
+      skills: ["Manual Testing (Pursuing)", "Technical Documentation", "Construction Reporting", "Site Communication"],
     },
     {
-      icon: Wrench,
-      title: "Tools & Platforms",
-      skills: ["Tableau", "Linux", "GitHub", "VS Code", "Excel"],
+      icon: ClipboardCheck,
+      title: "Work Values",
+      skills: ["Accuracy", "Responsibility", "Punctuality", "Safety First"],
     },
   ];
 
@@ -38,7 +38,7 @@ const Skills = () => {
     <section id="skills" className="py-20 px-6 bg-secondary/30 animate-fade-in">
       <div className="container mx-auto max-w-6xl">
         <h2 className="font-heading text-4xl md:text-5xl font-bold mb-4 text-center">
-          My <span className="text-primary">Skills</span>
+          Core <span className="text-primary">Expertise</span>
         </h2>
         <div className="w-20 h-1 bg-primary mx-auto mb-12"></div>
 

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Urbanist:wght@600;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,73 +10,107 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 7%;
-    --foreground: 0 0% 98%;
+    --background: 39 32% 95%;
+    --foreground: 213 24% 17%;
 
-    --card: 0 0% 10%;
-    --card-foreground: 0 0% 98%;
+    --card: 39 29% 98%;
+    --card-foreground: 213 24% 17%;
 
-    --popover: 0 0% 10%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 39 29% 98%;
+    --popover-foreground: 213 24% 17%;
 
-    --primary: 0 100% 50%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 24 78% 42%;
+    --primary-foreground: 36 25% 97%;
 
-    --secondary: 0 0% 15%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 38 27% 89%;
+    --secondary-foreground: 213 24% 17%;
 
-    --muted: 0 0% 20%;
-    --muted-foreground: 0 0% 65%;
+    --muted: 36 18% 84%;
+    --muted-foreground: 212 15% 35%;
 
-    --accent: 180 100% 50%;
-    --accent-foreground: 0 0% 10%;
+    --accent: 205 34% 34%;
+    --accent-foreground: 39 29% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 0 0% 20%;
-    --input: 0 0% 20%;
-    --ring: 0 100% 50%;
+    --border: 35 18% 72%;
+    --input: 35 18% 72%;
+    --ring: 24 78% 42%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
-    --hero-gradient: linear-gradient(135deg, hsl(0 100% 50% / 0.1) 0%, hsl(180 100% 50% / 0.05) 100%);
-    --glow-red: 0 0 40px hsl(0 100% 50% / 0.3);
-    --glow-aqua: 0 0 40px hsl(180 100% 50% / 0.3);
+    --hero-gradient: linear-gradient(130deg, hsl(24 78% 42% / 0.18) 0%, hsl(205 34% 34% / 0.1) 100%);
+    --glow-primary: 0 0 26px hsl(24 78% 42% / 0.24);
+    --glow-accent: 0 0 26px hsl(205 34% 34% / 0.2);
   }
 
   .light {
-    --background: 0 0% 100%;
-    --foreground: 0 0% 3.9%;
+    --background: 39 32% 95%;
+    --foreground: 213 24% 17%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 3.9%;
+    --card: 39 29% 98%;
+    --card-foreground: 213 24% 17%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 3.9%;
+    --popover: 39 29% 98%;
+    --popover-foreground: 213 24% 17%;
 
-    --primary: 0 100% 50%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 24 78% 42%;
+    --primary-foreground: 36 25% 97%;
 
-    --secondary: 0 0% 96.1%;
-    --secondary-foreground: 0 0% 9%;
+    --secondary: 38 27% 89%;
+    --secondary-foreground: 213 24% 17%;
 
-    --muted: 0 0% 96.1%;
-    --muted-foreground: 0 0% 45.1%;
+    --muted: 36 18% 84%;
+    --muted-foreground: 212 15% 35%;
 
-    --accent: 180 100% 50%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 205 34% 34%;
+    --accent-foreground: 39 29% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 0 0% 89.8%;
-    --input: 0 0% 89.8%;
-    --ring: 0 100% 50%;
+    --border: 35 18% 72%;
+    --input: 35 18% 72%;
+    --ring: 24 78% 42%;
 
-    --hero-gradient: linear-gradient(135deg, hsl(0 100% 50% / 0.05) 0%, hsl(180 100% 50% / 0.02) 100%);
-    --glow-red: 0 0 20px hsl(0 100% 50% / 0.2);
-    --glow-aqua: 0 0 20px hsl(180 100% 50% / 0.2);
+    --hero-gradient: linear-gradient(130deg, hsl(24 78% 42% / 0.18) 0%, hsl(205 34% 34% / 0.1) 100%);
+    --glow-primary: 0 0 26px hsl(24 78% 42% / 0.24);
+    --glow-accent: 0 0 26px hsl(205 34% 34% / 0.2);
+  }
+
+  .dark {
+    --background: 213 25% 12%;
+    --foreground: 36 23% 94%;
+
+    --card: 213 20% 16%;
+    --card-foreground: 36 23% 94%;
+
+    --popover: 213 20% 16%;
+    --popover-foreground: 36 23% 94%;
+
+    --primary: 27 82% 57%;
+    --primary-foreground: 214 30% 12%;
+
+    --secondary: 214 16% 22%;
+    --secondary-foreground: 36 23% 94%;
+
+    --muted: 214 14% 25%;
+    --muted-foreground: 37 13% 73%;
+
+    --accent: 200 40% 58%;
+    --accent-foreground: 214 30% 12%;
+
+    --destructive: 0 62% 40%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 214 14% 32%;
+    --input: 214 14% 32%;
+    --ring: 27 82% 57%;
+
+    --hero-gradient: linear-gradient(130deg, hsl(27 82% 57% / 0.22) 0%, hsl(200 40% 58% / 0.15) 100%);
+    --glow-primary: 0 0 26px hsl(27 82% 57% / 0.35);
+    --glow-accent: 0 0 26px hsl(200 40% 58% / 0.3);
   }
 }
 
@@ -85,16 +121,37 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Inter', sans-serif;
+    font-family: "Manrope", sans-serif;
+    color-scheme: light;
+    background-image:
+      radial-gradient(circle at 12% 15%, hsl(24 78% 42% / 0.1), transparent 28%),
+      radial-gradient(circle at 88% 2%, hsl(205 34% 34% / 0.09), transparent 30%),
+      linear-gradient(transparent 95%, hsl(35 18% 78% / 0.2) 100%);
+    background-size: auto, auto, 100% 26px;
+    background-attachment: fixed;
+  }
+
+  .dark body {
+    color-scheme: dark;
+    background-image:
+      radial-gradient(circle at 12% 15%, hsl(27 82% 57% / 0.14), transparent 28%),
+      radial-gradient(circle at 88% 2%, hsl(200 40% 58% / 0.1), transparent 30%),
+      linear-gradient(transparent 95%, hsl(214 15% 28% / 0.28) 100%);
+    background-size: auto, auto, 100% 26px;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Urbanist", sans-serif;
     font-weight: 700;
   }
 
   html {
     scroll-behavior: smooth;
+  }
+
+  ::selection {
+    background: hsl(var(--primary) / 0.22);
+    color: hsl(var(--foreground));
   }
 }
 
